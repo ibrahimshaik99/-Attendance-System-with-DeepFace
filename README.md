@@ -110,7 +110,7 @@ Edit `attendence_deepface.py` to customize:
 | Parameter | Default | Description |
 |-----------|---------|-------------|
 | `MODE` | "demo" | "demo" or "camera" |
-| `CAMERA_URL` | "http://191.168.1.174:8080/video" | Camera stream URL |
+| `CAMERA_URL` | "http://191.168.x.xx:8080/video" | Camera stream URL |
 | `TOLERANCE` | 0.40 | Face match threshold (lower = stricter) |
 | `EARLIEST_CHECKIN` | 05:00:00 | Earliest allowed check-in time |
 | `LATEST_CHECKOUT` | 22:00:00 | Latest allowed check-out time |
