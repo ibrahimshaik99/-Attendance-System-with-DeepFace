@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('http://191.168.1.174:8080/video')
+cap = cv2.VideoCapture('http://191.168.x.xx:8080/video')
 ret, frame = cap.read()
 if ret:
     h, w = frame.shape[:2]
