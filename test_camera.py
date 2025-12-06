@@ -2,7 +2,7 @@
 import cv2
 
 # Change this to your camera IP
-CAMERA_URL = "http://191.168.1.174:8080/video"
+CAMERA_URL = "http://191.168.x.xx:8080/video"
 
 print("=" * 60)
 print("TESTING IP CAMERA CONNECTION")
