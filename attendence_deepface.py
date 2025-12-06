@@ -13,7 +13,7 @@ from queue import Queue
 from deepface import DeepFace
 
 # ========== CONFIG =======================
-CAMERA_URL = "http://100.110.1.126:8080/video"
+CAMERA_URL = "http://191.168.x.xx:8080/video"
 ENC_FILE = "encodings_deepface.pickle"
 EMPLOYEES_DIR = "employees"
 OUTPUT_DIR = "output"
